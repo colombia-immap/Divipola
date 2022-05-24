@@ -108,7 +108,7 @@ if df_api_sector_mes['mpio'].isna().sum() > 1:
 
 # see the columns and select the ones needed
 df_api_sector_mes.columns 
-df_api_sector_mes = df_api_sector_mes[['Mesdeatención', 'Sector','dpto','Departamento_x','mpio', 'Municipio_x','Mesdeatención', 'Sector','bene_mensuales']]
+df_api_sector_mes = df_api_sector_mes[['Mesdeatención', 'Sector','dpto','Departamento_x','mpio', 'Municipio_x','bene_mensuales']]
 
 #see the columns and select the ones needed
 df_5w_sector_mes.columns 
